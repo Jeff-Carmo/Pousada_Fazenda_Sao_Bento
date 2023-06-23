@@ -5,6 +5,7 @@
 
 .cabeçalhobox{
     width: 100%;
+    border-bottom: 2px solid white;
 }
 
 
@@ -29,7 +30,6 @@
     width: 100vw;
    
 }
-
 
 .menu-dropdown li{
     display: inline-block;
@@ -68,30 +68,29 @@
 }
 
 
+/* Conteudo Principal */
 
 .article1 h1{
-    color: rgb(31,84,138);
     text-align: center;
     font-size: 2.0rem;
+    margin-top: 25px;
 }
 
+.article1 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    line-height: 2.0;
+    text-indent: 50px;
+    text-align: justify;
+    margin: 0px 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* Rodapé*/
 
 .footerbox{
     background-color: rgb(63, 130, 197);
     border-top: 3px solid white;
-    /* width: 100vw; */
+  
 
 }
 
@@ -129,3 +128,654 @@
 
 
 
+
+/*Cachoeiras.html */
+
+#fotos h1{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(31,84,138);
+    text-shadow: 0 0 5px #fff;
+    border-radius: 20px;
+    margin: 40px 150px 0px 150px;
+    font-size: 2rem;
+}
+
+#album{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 800px;
+margin: 0 auto;
+padding: 50px;
+overflow: hidden;
+list-style: none;
+
+}
+
+#album li{
+width: 200px;
+height: 200px;
+margin: 10px;
+border: 5px solid black;
+background-color: #ffffff;
+box-shadow: 1px 1px 3px #606060;
+
+}
+
+#album li:hover{
+    transform: scale(1.50);
+}
+
+#foto01{
+    background: url(Imagens/Cachoeiras/Almecegas1.png) no-repeat;
+
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto02{
+    background: url(Imagens/Cachoeiras/Almécegas1.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto03{
+    background: url(Imagens/Cachoeiras/Almécegas2.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto04{
+    background: url(Imagens/Cachoeiras/Almecegas2\ .png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto05{
+    background: url(Imagens/Cachoeiras/CachoeiraSaoBento.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto06{
+    background: url(Imagens/Cachoeiras/SantaBarbara.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto07{
+    background: url(Imagens/Cachoeiras/Santabarbara2.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto07:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto08{
+    background: url(Imagens/Cachoeiras/CachoeiraCapivara.png)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto08:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto09{
+    background: url(Imagens/Cachoeiras/CahoeiraCandaru.png)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto09:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+#album li span{
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    opacity: 0;
+}
+
+#album li:hover span{
+    opacity: 1;
+}
+
+
+/* tirolesa.html */
+
+#foto10{
+    background: url(Imagens/Tirolesa/tirolesa1.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto11{
+    background: url(Imagens/Tirolesa/tirolesa2.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto11:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto12{
+    background: url(Imagens/Tirolesa/tirolesa3.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto12:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto13{
+    background: url(Imagens/Tirolesa/tirolesa4.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto13:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto14{
+    background: url(Imagens/Tirolesa/tirolesa5.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto14:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto15{
+    background: url(Imagens/Tirolesa/tirolesa6.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto15:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto16{
+    background: url(Imagens/Tirolesa/tirolesa7.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto16:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto17{
+    background: url(Imagens/Tirolesa/tirolesa8.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto17:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto18{
+    background: url(Imagens/Tirolesa/tirolesa9.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto18:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+
+/*Rapel.html */
+
+#foto19{
+    background: url(Imagens/Rapel/rapel1.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto19:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto20{
+    background: url(Imagens/Rapel/rapel2.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto20:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto21{
+    background: url(Imagens/Rapel/rapel3.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto21:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto22{
+    background: url(Imagens/Rapel/rapel4.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto22:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto23{
+    background: url(Imagens/Rapel/rapel5.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto23:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto24{
+    background: url(Imagens/Rapel/rapel6.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto24:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto25{
+    background: url(Imagens/Rapel/rapel7.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto25:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto26{
+    background: url(Imagens/Rapel/rapel8.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto26:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto27{
+    background: url(Imagens/Rapel/rapel9.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto27:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+
+/* Arvorismo.html */
+
+#foto28{
+    background: url(Imagens/Arvorismo/arvorismo1.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto28:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto29{
+    background: url(Imagens/Arvorismo/arvorismo2.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto29:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto30{
+    background: url(Imagens/Arvorismo/arvorismo3.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto30:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto31{
+    background: url(Imagens/Arvorismo/arvorismo4.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto31:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto32{
+    background: url(Imagens/Arvorismo/arvorismo5.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto32:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto33{
+    background: url(Imagens/Arvorismo/arvorismo6.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto33:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto34{
+    background: url(Imagens/Arvorismo/arvorismo7.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto34:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto35{
+    background: url(Imagens/Arvorismo/arvorismo8.png)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto35:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#foto36{
+    background: url(Imagens/Arvorismo/arvorismo9.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    
+}
+
+#foto36:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+/* Reserva.html */
+
+.container3{
+    display: grid;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, #34C6F4 60%);
+    grid-template-columns: 1fr;
+    padding-top: 45px;
+    
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FEFE00;
+    padding: 10px;
+    margin: 25px 600px;
+    box-shadow: 0px 0px 0px 3px #000000;
+       
+}
+
+
+#email:hover{
+    background-color: #ffffff;
+}
+
+.contato figure{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.contato figure img{
+    width: 25px;
+    height: 25px;
+    padding: 5px 5px;
+}
+
+.contato figure img:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.contato input{
+    width: 300px;
+}
+
+.Databox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#Data{
+    width: 105px;
+}
+
+#Data2{
+    width: 105px;
+}
+
+#Data3{
+    width: 60px;
+}
+#Data4{
+    width: 60px;
+}
+
+#Data5{
+    width: 60px;
+}
+.Hospedagembox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cmsg{
+    display: block;
+    margin: 15px auto;
+    
+}
+
+#submit{
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+}
+
+#submit:hover{
+ background-color: rgb(16, 199, 16);
+ transition: 0.6s;
+ 
+}
+
+/* Configuração Mobile */
+
+@media (max-width: 600px){
+
+    .menu-dropdown{
+    
+   
+        border-bottom: 1px solid white;
+        font-size: 0.85rem;
+       
+    }
+
+    #fotos h1{
+        margin: 40px 10px 5px 10px;
+        font-size: 1.8rem;
+        
+    }
+
+    #album{
+        
+        width: auto;
+        
+        
+        }
+
+        .contato{
+            display: block;
+            margin: 55px auto;
+            text-align: center;
+              
+        }
+
+    
+    }
+
+
+    @media (max-width: 900px){
+
+        #fotos h1{
+            margin: 40px 10px 5px 10px;
+            
+        }
+    
+        #album{
+            
+            width: auto;
+            
+            
+            }
+    
+            .contato{
+                display: block;
+                margin: 55px auto;
+                text-align: center;
+                  
+            }
+        
+        }
